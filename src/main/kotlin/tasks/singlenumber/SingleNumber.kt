@@ -1,4 +1,4 @@
-package tasks
+package tasks.singlenumber
 
 class SingleNumber {
     operator fun invoke(nums: IntArray): Int {
