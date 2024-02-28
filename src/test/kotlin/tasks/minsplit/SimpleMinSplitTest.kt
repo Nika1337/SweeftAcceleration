@@ -1,9 +1,8 @@
-package tasks
+package tasks.minsplit
 
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.BeforeEach
-import tasks.minsplit.SimpleMinSplit
 import kotlin.test.assertEquals
 
 class SimpleMinSplitTest {
