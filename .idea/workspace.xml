@@ -4,314 +4,76 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="496f470f-6970-435e-a140-6d4e2af2d706" name="Changes" comment="added interface for LongestPrefix">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tasks/countvariants/CountVariants.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tasks/countvariants/CountVariantsApproach1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tasks/countvariants/CountVariantsApproach2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/tasks/countvariants/CountVariantsTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8e8474c0-a360-4c73-afc8-ab2bdb37f203" name="Changes" comment="first commit, initialized files for tasks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view />
-      </state>
-    </system>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2czk4O22l47M368PqZ6qCyil4Xa" />
+  <component name="ProjectId" id="2czhKHORnP57RdeFTOoYMXSye1M" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\IdeaProjects\SweeftAccelaration\src\main\kotlin\tasks" />
+      <recent name="C:\Users\hp\IdeaProjects\SweeftAccelaration\src\main\kotlin" />
     </key>
-    <key name="CreateKotlinClassDialog.RecentsKey">
-      <recent name="tasks.countvariants" />
-    </key>
-    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="tasks.minsplit" />
-      <recent name="tasks.singlenumber" />
-      <recent name="tasks.longestprefix" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="tasks.countvariants" />
-      <recent name="tasks.longestprefix" />
-      <recent name="tasks.minsplit" />
-      <recent name="tasks" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Gradle.CountVariantsTest.countVariants_invoke_returnsCorrectResult">
-    <configuration name="CountVariantsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tasks.countvariants.CountVariantsTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CountVariantsTest.countVariants_invoke_returnsCorrectResult" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tasks.countvariants.CountVariantsTest.countVariants_invoke_returnsCorrectResult&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="LongestPrefixTest.longestPrefix_invokeManyTimes_AllReturnCorrectResult" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tasks.longestprefix.LongestPrefixTest.longestPrefix_invokeManyTimes_AllReturnCorrectResult&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MinSplitTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tasks.minsplit.MinSplitTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tests in 'tasks.minsplit'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tasks.minsplit.*&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.CountVariantsTest.countVariants_invoke_returnsCorrectResult" />
-        <item itemvalue="Gradle.CountVariantsTest" />
-        <item itemvalue="Gradle.MinSplitTest" />
-        <item itemvalue="Gradle.Tests in 'tasks.minsplit'" />
-        <item itemvalue="Gradle.LongestPrefixTest.longestPrefix_invokeManyTimes_AllReturnCorrectResult" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="496f470f-6970-435e-a140-6d4e2af2d706" name="Changes" comment="" />
-      <created>1709121606599</created>
+      <changelist id="8e8474c0-a360-4c73-afc8-ab2bdb37f203" name="Changes" comment="" />
+      <created>1709120251470</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1709121606599</updated>
-      <workItem from="1709121607622" duration="5719000" />
+      <updated>1709120251470</updated>
+      <workItem from="1709120252530" duration="629000" />
     </task>
-    <task id="LOCAL-00001" summary="created new project with gradle build system">
-      <created>1709122522184</created>
+    <task id="LOCAL-00001" summary="first commit, initialized files for tasks">
+      <created>1709120665994</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1709122522184</updated>
+      <updated>1709120665994</updated>
     </task>
-    <task id="LOCAL-00002" summary="created new project with gradle build system">
-      <created>1709122527053</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1709122527053</updated>
-    </task>
-    <task id="LOCAL-00003" summary="created separate folder for SingleNumber">
-      <created>1709132094423</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1709132094423</updated>
-    </task>
-    <task id="LOCAL-00004" summary="created ComplexMinSplit and SimpleMinSplit and tested them">
-      <created>1709134142632</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1709134142632</updated>
-    </task>
-    <task id="LOCAL-00005" summary="moved SimpleMinSplitTest">
-      <created>1709134206915</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1709134206915</updated>
-    </task>
-    <task id="LOCAL-00006" summary="added interface MinSplit and now both complex and simple min splits extend it,">
-      <created>1709227464911</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1709227464911</updated>
-    </task>
-    <task id="LOCAL-00007" summary="added interface for DefaultSingleNumber">
-      <created>1709228624454</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1709228624454</updated>
-    </task>
-    <task id="LOCAL-00008" summary="added interface for LongestPrefix">
-      <created>1709228641284</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1709228641284</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created new project with gradle build system" />
-    <MESSAGE value="created separate folder for SingleNumber" />
-    <MESSAGE value="created ComplexMinSplit and SimpleMinSplit and tested them" />
-    <MESSAGE value="moved SimpleMinSplitTest" />
-    <MESSAGE value="added interface MinSplit and now both complex and simple min splits extend it," />
-    <MESSAGE value="added interface for DefaultSingleNumber" />
-    <MESSAGE value="added interface for LongestPrefix" />
-    <option name="LAST_COMMIT_MESSAGE" value="added interface for LongestPrefix" />
+    <MESSAGE value="first commit, initialized files for tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit, initialized files for tasks" />
   </component>
 </project>
