@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e8474c0-a360-4c73-afc8-ab2bdb37f203" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SweeftAccelaration.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/LongestSuffix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/MinSplit.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SingleNumber.kt" afterDir="false" />
-    </list>
+    <list default="true" id="8e8474c0-a360-4c73-afc8-ab2bdb37f203" name="Changes" comment="first commit, initialized files for tasks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +17,12 @@
         <option value="Kotlin Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2czhKHORnP57RdeFTOoYMXSye1M" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,6 +43,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\IdeaProjects\SweeftAccelaration\src\main\kotlin\tasks" />
+      <recent name="C:\Users\hp\IdeaProjects\SweeftAccelaration\src\main\kotlin" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,11 +57,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709120251470</updated>
-      <workItem from="1709120252530" duration="300000" />
+      <workItem from="1709120252530" duration="629000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit, initialized files for tasks">
+      <created>1709120665994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709120665994</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit, initialized files for tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit, initialized files for tasks" />
   </component>
 </project>
