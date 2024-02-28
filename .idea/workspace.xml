@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="496f470f-6970-435e-a140-6d4e2af2d706" name="Changes" comment="created new project with gradle build system">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tasks/MinSplit.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tasks/SingleNumber.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/tasks/MinSplitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/tasks/SingleNumberTest.kt" afterDir="false" />
+    <list default="true" id="496f470f-6970-435e-a140-6d4e2af2d706" name="Changes" comment="moved SimpleMinSplitTest">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tasks/longestprefix/LongestPrefix.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/tasks/longestprefix/LongestPrefixTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +20,22 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -48,34 +56,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.build",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="tasks.minsplit" />
+      <recent name="tasks.singlenumber" />
+      <recent name="tasks.longestprefix" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="tasks.longestprefix" />
+      <recent name="tasks.minsplit" />
       <recent name="tasks" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MinSplitTest.minSplit_correctAmounts_returnsCorrectAnswer">
-    <configuration name="MinSplitTest.minSplit_amountZero_returnsZero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.LongestPrefixTest.longestPrefix_invokeManyTimes_AllReturnCorrectResult">
+    <configuration name="LongestPrefixTest.longestPrefix_invokeManyTimes_AllReturnCorrectResult" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -88,7 +104,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tasks.MinSplitTest.minSplit_amountZero_returnsZero&quot;" />
+            <option value="&quot;tasks.longestprefix.LongestPrefixTest.longestPrefix_invokeManyTimes_AllReturnCorrectResult&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -98,7 +114,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MinSplitTest.minSplit_correctAmounts_returnsCorrectAnswer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongestPrefixTest.longestPrefix_invokeOnEmptyArray_ReturnsEmptyString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -111,7 +127,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tasks.MinSplitTest.minSplit_correctAmounts_returnsCorrectAnswer&quot;" />
+            <option value="&quot;tasks.longestprefix.LongestPrefixTest.longestPrefix_invokeOnEmptyArray_ReturnsEmptyString&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -121,7 +137,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SingleNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongestPrefixTest.longestPrefix_invokeOnOneElementArray_returnsTheElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -134,7 +150,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tasks.SingleNumberTest&quot;" />
+            <option value="&quot;tasks.longestprefix.LongestPrefixTest.longestPrefix_invokeOnOneElementArray_returnsTheElement&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -144,7 +160,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SingleNumberTest.singleNumber_invokeOnCorrectArray_returnsOddOneOut" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SimpleMinSplitTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -157,7 +173,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tasks.SingleNumberTest.singleNumber_invokeOnCorrectArray_returnsOddOneOut&quot;" />
+            <option value="&quot;tasks.SimpleMinSplitTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -167,36 +183,20 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SingleNumberTest.singleNumber_invokeOnEmptyArray_returnMinusOne" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tasks.SingleNumberTest.singleNumber_invokeOnEmptyArray_returnMinusOne&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <module name="SweeftAcceleration.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MinSplitTest.minSplit_correctAmounts_returnsCorrectAnswer" />
-        <item itemvalue="Gradle.MinSplitTest.minSplit_amountZero_returnsZero" />
-        <item itemvalue="Gradle.SingleNumberTest.singleNumber_invokeOnEmptyArray_returnMinusOne" />
-        <item itemvalue="Gradle.SingleNumberTest" />
-        <item itemvalue="Gradle.SingleNumberTest.singleNumber_invokeOnCorrectArray_returnsOddOneOut" />
+        <item itemvalue="Gradle.LongestPrefixTest.longestPrefix_invokeManyTimes_AllReturnCorrectResult" />
+        <item itemvalue="Gradle.LongestPrefixTest.longestPrefix_invokeOnOneElementArray_returnsTheElement" />
+        <item itemvalue="Gradle.LongestPrefixTest.longestPrefix_invokeOnEmptyArray_ReturnsEmptyString" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Gradle.SimpleMinSplitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +224,28 @@
       <option name="project" value="LOCAL" />
       <updated>1709122527053</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="created separate folder for SingleNumber">
+      <created>1709132094423</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709132094423</updated>
+    </task>
+    <task id="LOCAL-00004" summary="created ComplexMinSplit and SimpleMinSplit and tested them">
+      <created>1709134142632</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709134142632</updated>
+    </task>
+    <task id="LOCAL-00005" summary="moved SimpleMinSplitTest">
+      <created>1709134206915</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709134206915</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +264,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created new project with gradle build system" />
-    <option name="LAST_COMMIT_MESSAGE" value="created new project with gradle build system" />
+    <MESSAGE value="created separate folder for SingleNumber" />
+    <MESSAGE value="created ComplexMinSplit and SimpleMinSplit and tested them" />
+    <MESSAGE value="moved SimpleMinSplitTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved SimpleMinSplitTest" />
   </component>
 </project>
