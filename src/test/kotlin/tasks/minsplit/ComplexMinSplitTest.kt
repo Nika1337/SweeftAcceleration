@@ -10,13 +10,13 @@ class ComplexMinSplitTest {
     private val coins = intArrayOf(50, 20, 10, 5, 1)
     @BeforeEach
     fun initialize() {
-        complexMinSplit = ComplexMinSplit()
+        complexMinSplit = ComplexMinSplit(coins)
     }
     @Test
     fun complexMinSplit_amountZero_returnsZero() {
         val testAmount = 0
         val expectedValue = 0
-        val actualValue = complexMinSplit(coins, testAmount)
+        val actualValue = complexMinSplit(testAmount)
         assertEquals(expectedValue, actualValue)
     }
 
@@ -32,7 +32,7 @@ class ComplexMinSplitTest {
             6,
             3
         )
-        val actualValues = List(testAmounts.size) { index -> complexMinSplit(coins, testAmounts[index]) }
+        val actualValues = List(testAmounts.size) { index -> complexMinSplit(testAmounts[index]) }
         assertEquals(expectedValues, actualValues)
     }
 }

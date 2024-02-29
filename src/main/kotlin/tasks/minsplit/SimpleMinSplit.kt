@@ -1,8 +1,8 @@
 package tasks.minsplit
 
-class SimpleMinSplit {
+class SimpleMinSplit : MinSplit {
     private val coins = intArrayOf(50, 20, 10, 5, 1)
-    operator fun invoke(
+    override operator fun invoke(
         amount: Int
     ): Int {
         var amountOfCoins = 0
