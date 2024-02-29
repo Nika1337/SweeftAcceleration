@@ -54,9 +54,9 @@ class LongestPrefixTest {
             "",
             ""
         )
-        val actualValues1 = List(testArrays.size) { index -> longestPrefixApproach1(testArrays[index]) }
-        val actualValues2 = List(testArrays.size) { index -> longestPrefixApproach2(testArrays[index]) }
-        val actualValues3 = List(testArrays.size) { index -> longestPrefixApproach3(testArrays[index]) }
+        val actualValues1 = testArrays.map { longestPrefixApproach1(it) }
+        val actualValues2 = testArrays.map { longestPrefixApproach2(it) }
+        val actualValues3 = testArrays.map { longestPrefixApproach3(it) }
         assertEquals(expectedValues, actualValues1)
         assertEquals(expectedValues, actualValues2)
         assertEquals(expectedValues, actualValues3)
