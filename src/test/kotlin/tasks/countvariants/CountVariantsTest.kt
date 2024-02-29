@@ -50,8 +50,8 @@ class CountVariantsTest {
             121393,
             610
         )
-        val actualValues1 = List(testCounts.size) { index -> countVariantsApproach1(testCounts[index]) }
-        val actualValues2 = List(testCounts.size) { index -> countVariantsApproach2(testCounts[index]) }
+        val actualValues1 = testCounts.map { countVariantsApproach1(it) }
+        val actualValues2 = testCounts.map { countVariantsApproach2(it) }
         assertEquals(expectedValues, actualValues1)
         assertEquals(expectedValues, actualValues2)
     }
