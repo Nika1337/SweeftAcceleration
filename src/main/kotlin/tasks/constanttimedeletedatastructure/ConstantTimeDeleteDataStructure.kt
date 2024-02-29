@@ -6,11 +6,11 @@ class ConstantTimeDeleteDataStructure<K, V> : DataStructure<K, V> {
         TODO("Not yet implemented")
     }
 
-    override fun get(key: K): V {
+    override fun get(key: K): V? {
         TODO("Not yet implemented")
     }
 
-    override fun delete(key: K): V {
+    override fun delete(key: K) {
         TODO("Not yet implemented")
     }
 
