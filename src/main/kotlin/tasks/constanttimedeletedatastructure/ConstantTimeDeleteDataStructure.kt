@@ -15,8 +15,10 @@ class ConstantTimeDeleteDataStructure<V> : DataStructure<V> {
     override fun delete(element: V): Boolean {
         if (map.containsKey(element).not()) return false
         val index = map[element]!!
-        list[index] = list.last()
-        list.removeLast()
+        list[index] = list[list.size - 1]
+        map[list[index]] = index
+        list.removeAt(list.size - 1)
+        map.remove(element)
         return true
     }
 
