@@ -1,18 +1,27 @@
 package tasks.constanttimedeletedatastructure
 
-class ConstantTimeDeleteDataStructure<K, V> : DataStructure<K, V> {
 
-    override fun insert(key: K, value: V) {
-        TODO("Not yet implemented")
+
+class ConstantTimeDeleteDataStructure<V> : DataStructure<V> {
+    private val list: ArrayList<V> = ArrayList()
+    private val map: MutableMap<V, Int> = mutableMapOf()
+    override fun insert(element: V): Boolean {
+        if (map.containsKey(element)) return false
+        list.add(element)
+        map[element] = list.size - 1
+        return true
     }
 
-    override fun get(key: K): V? {
-        TODO("Not yet implemented")
+    override fun delete(element: V): Boolean {
+        if (map.containsKey(element).not()) return false
+        val index = map[element]!!
+        list[index] = list.last()
+        list.removeLast()
+        return true
     }
 
-    override fun delete(key: K) {
-        TODO("Not yet implemented")
+    override fun getAll(): List<V> {
+        return list.toList()
     }
-
-
 }
+
