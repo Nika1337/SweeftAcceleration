@@ -1,2 +1,2 @@
-# SweeftAcceleration
-Repository for solutions of tasks given by sweeft
+# Sweeft Acceleration
+Repository for solutions of tasks given by Sweeft. All task have general interfaces, and one or more implementations of interface for given exercise. For example [CountVariants](src/main/kotlin/tasks/countvariants/CountVariants.kt) is general interface for Count Variants task, [CountVariantsApproach1](src/main/kotlin/tasks/countvariants/CountVariantsApproach1.kt) and [CountVariantsApproach2](src/main/kotlin/tasks/countvariants/CountVariantsApproach2.kt) are implementations of this interface. All solutions are tested in [test](src/test) module.
