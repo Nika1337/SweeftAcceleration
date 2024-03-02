@@ -1,7 +1,7 @@
 package tasks.constanttimedeletedatastructure
 
-interface DataStructure<K,V> {
-    fun insert(key: K, value: V)
-    fun get(key: K): V?
-    fun delete(key: K)
+interface DataStructure<V> {
+    fun insert(element: V): Boolean
+    fun delete(element: V): Boolean
+    fun getAll(): List<V>
 }
